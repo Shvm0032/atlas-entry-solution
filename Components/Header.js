@@ -62,7 +62,7 @@ export default function Header() {
 
       {/* ---------- MAIN HEADER (LOGO + MENU) ---------- */}
       <div
-        className={`w-full md:bg-white bg-blue-600 shadow-sm transition-all duration-300 ${
+        className={`w-full md:bg-white bg-[#1C398E] shadow-sm transition-all duration-300 ${
           hideTopBar ? "top-0" : "md:top-8"
         } fixed`}
       >
