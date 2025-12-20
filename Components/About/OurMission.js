@@ -5,7 +5,7 @@ export default function OurMission() {
     <section
       className="relative w-full h-[70vh] flex items-center justify-center text-white"
       style={{
-        backgroundImage: `url('/home/bg-5.avif')`,
+        backgroundImage: `url('/Assets/home/bg-5.avif')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

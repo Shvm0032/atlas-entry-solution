@@ -9,6 +9,7 @@ import "./globals.css";
 
 
 
+
 // Heading Font
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -30,6 +31,9 @@ export const metadata = {
     icon: "/favicon.ico",       
     shortcut: "/favicon.ico",   
     apple: "/apple-touch-icon.png", 
+  },
+   other: {
+    google: "notranslate",
   },
 };
 

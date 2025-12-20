@@ -21,7 +21,7 @@ export default function OurValues() {
     <section
       className="w-full py-16 bg-cover bg-center bg-no-repeat relative"
       style={{
-        backgroundImage: "url('/home/bg-7.png')",
+        backgroundImage: "url('/Assets/home/bg-7.png')",
       }}
     >
       {/* DARK OVERLAY */}
@@ -33,7 +33,7 @@ export default function OurValues() {
         {/* LEFT IMAGE */}
         <div className="relative w-full h-[400px] md:h-full rounded-xl overflow-hidden">
           <img
-            src="/home/slider-4.jpg"
+            src="/Assets/home/slider-4.jpg"
             alt="Relocation"
             className="w-full h-full object-cover"
           />

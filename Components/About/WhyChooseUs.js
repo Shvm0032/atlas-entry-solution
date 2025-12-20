@@ -41,7 +41,7 @@ export default function WhyChooseUs() {
     <section
       className="relative py-20 bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: "url('/about/about-bg1.jpg')" 
+        backgroundImage: "url('/Assets/about/about-bg1.jpg')" 
       }}
     >
       {/* Overlay */}

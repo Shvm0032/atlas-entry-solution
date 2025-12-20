@@ -6,7 +6,7 @@ const ProcessCTA = () => {
     <section
       className="py-16 px-4 bg-cover bg-center bg-no-repeat relative overflow-hidden"
       style={{
-        backgroundImage: "url('/process/process-11.jpg')",
+        backgroundImage: "url('/Assets/process/process-11.jpg')",
       }}
     >
       <div className="max-w-7xl mx-auto relative z-10">

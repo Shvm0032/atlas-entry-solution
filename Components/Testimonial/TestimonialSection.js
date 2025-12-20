@@ -39,7 +39,7 @@ export default function TestimonialSection() {
     <section
       className="relative pt-10 pb-16 px-4 bg-contain bg-center bg-repeat"
       style={{
-        backgroundImage: "url('/testimonial/testi-bg-1.png')", 
+        backgroundImage: "url('/Assets/testimonial/testi-bg-1.png')", 
       }}
     >
 

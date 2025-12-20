@@ -5,10 +5,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 const images = [
-  "/home/slider-1.jpg",
-  "/home/slider-2.jpg",
-  "/home/slider-3.jpg",
-  "/home/slider-4.jpg",
+  "/Assets/home/slider-1.jpg",
+  "/Assets/home/slider-2.jpg",
+  "/Assets/home/slider-3.jpg",
+  "/Assets/home/slider-4.jpg",
 ];
 
 export default function ImageSlider() {

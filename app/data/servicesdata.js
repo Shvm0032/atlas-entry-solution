@@ -2,7 +2,7 @@ export const services = [
   {
     title: "Legal Documentation Support",
     slug: "legal-documentation-support",
-    image: "/services/legal-documents.jpg",
+    image: "/Assets/services/legal-documents.jpg",
     description:
       "We guide you through required paperwork for legal relocation to Portugal with complete verification and error-free submission.",
     keyPointHeading: "Includes:",
@@ -17,7 +17,7 @@ export const services = [
   {
     title: "Full Relocation Management",
     slug: "full-relocation-management",
-    image: "/services/relocation-management.jpg",
+    image: "/Assets/services/relocation-management.jpg",
     description:
       "We manage your relocation journey from home country to Portugal with complete planning and support.",
     keyPointHeading: "Includes:",
@@ -32,7 +32,7 @@ export const services = [
   {
     title: "Accommodation With Food",
     slug: "accommodation-with-food",
-    image: "/services/food-relocation.jpg",
+    image: "/Assets/services/food-relocation.jpg",
     description:
       "Safe, verified accommodation with food and essential living support upon your arrival.",
     keyPointHeading: "Includes:",
@@ -47,7 +47,7 @@ export const services = [
   {
     title: "Professional Training Programs",
     slug: "professional-training-programs",
-    image: "/services/training.jpg",
+    image: "/Assets/services/training.jpg",
     description:
       "Training programs that prepare you for Portuguese culture, lifestyle, and job opportunities.",
     keyPointHeading: "Includes:",
@@ -62,7 +62,7 @@ export const services = [
   {
     title: "Job & Integration Support",
     slug: "job-and-integration-support",
-    image: "/services/job.jpg",
+    image: "/Assets/services/job.jpg",
     description:
       "We help you integrate into Portuguese society with guidance for local systems and documents.",
     keyPointHeading: "Includes:",
@@ -77,7 +77,7 @@ export const services = [
   {
     title: "Step-by-Step Personal Assistance",
     slug: "step-by-step-personal-assistance",
-    image: "/services/assistance.jpg",
+    image: "/Assets/services/assistance.jpg",
     description:
       "We support you throughout your journey until you're fully settled in Portugal.",
     keyPointHeading: "Includes:",

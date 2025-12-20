@@ -38,7 +38,7 @@ export default function FAQ() {
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/home/bg-8.webp')" }}
+        style={{ backgroundImage: "url('/Assets/home/bg-8.webp')" }}
       ></div>
 
       {/* Overlay */}

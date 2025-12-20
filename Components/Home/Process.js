@@ -38,7 +38,7 @@ export default function Process() {
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/home/bg-2.jpg')" }}
+        style={{ backgroundImage: "url('/Assets/home/bg-2.jpg')" }}
       ></div>
 
       {/* Overlay */}

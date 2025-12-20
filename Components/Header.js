@@ -74,13 +74,14 @@ export default function Header() {
           {/* LOGO */}
           <Link href="/" className="flex items-center gap-2">
             <Image
-              src="/atlas-header-logo.png"
+              src="/Assets/atlas-header-logo.png"
               alt="Logo"
               width={100}
               height={100}
               className="md:h-20 md:w-36 h-14 w-20"
             />
           </Link>
+          
 
           {/* DESKTOP MENU */}
           <nav className="hidden md:flex items-center gap-8 text-gray-700">

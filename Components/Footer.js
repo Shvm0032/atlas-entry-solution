@@ -3,6 +3,8 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { FaWhatsapp } from "react-icons/fa";
+import { FaGoogle } from "react-icons/fa";
+import GoogleTranslate from "../Components/GoogleTranslate";
 import {
   Phone,
   Mail,
@@ -17,6 +19,7 @@ import {
 export default function Footer() {
   const [showButton, setShowButton] = useState(false);
   const [isNearFooter, setIsNearFooter] = useState(false);
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -57,7 +60,7 @@ export default function Footer() {
           <div>
             <Link href="/" className="inline-block ">
               <img
-                src="/atlas-footer-logo.png"
+                src="/Assets/atlas-footer-logo.png"
                 alt="Company Logo"
                 className="h-20 w-36"
               />
@@ -75,25 +78,25 @@ export default function Footer() {
 
             <ul className="space-y-2 text-gray-600 text-sm text-left">
               <li>
-                <a href="/#who" className="hover:text-[#1C398E] ">
+                <Link href="/#who" className="hover:text-[#1C398E] ">
                   Who We Are
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/#process" className="hover:text-[#1C398E]">
+                <Link href="/#process" className="hover:text-[#1C398E]">
                   Our Process
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/#what" className="hover:text-[#1C398E]">
+                <Link href="/#what" className="hover:text-[#1C398E]">
                   What You Get
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="/contact-us" className="hover:text-[#1C398E]">
+                <Link href="/contact-us" className="hover:text-[#1C398E]">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -103,24 +106,24 @@ export default function Footer() {
 
             <ul className="space-y-2 text-gray-600 text-sm text-left">
               <li>
-                <a href="/about" className="hover:text-[#1C398E]">
+                <Link href="/about" className="hover:text-[#1C398E]">
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/services" className="hover:text-[#1C398E]">
+                <Link href="/services" className="hover:text-[#1C398E]">
                   Services
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/testimonial" className="hover:text-[#1C398E]">
+                <Link href="/testimonial" className="hover:text-[#1C398E]">
                   Testimonial
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#faq" className="hover:text-[#1C398E]">
+                <Link href="/#faq" className="hover:text-[#1C398E]">
                   FAQ
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -175,19 +178,21 @@ export default function Footer() {
         href="https://wa.me/35679605019"
         target="_blank"
         rel="noopener noreferrer"
-        className=" fixed bottom-20 right-6 z-50 flex items-center gap-2 bg-green-500 text-white w-12 h-12 px-3 rounded-full shadow-lg overflow-hidden transition-all duration-300 ease-in-out hover:w-36 hover:bg-green-600 "
+        className=" fixed bottom-6 right-6 z-50 flex items-center gap-2 bg-green-500 text-white w-12 h-12 px-3 rounded-full shadow-lg overflow-hidden transition-all duration-300 ease-in-out hover:w-36 hover:bg-green-600 "
       >
         <FaWhatsapp size={20} className="shrink-0" />
 
-        <span
-          className=" whitespace-nowrap text-xs font-medium opacity-100 translate-x-3 transition-all duration-300 hover:opacity-100 hover:translate-x-0  "
-        >
+        <span className=" whitespace-nowrap text-xs font-medium opacity-100 translate-x-3 transition-all duration-300 hover:opacity-100 hover:translate-x-0  ">
           Chat with us
         </span>
       </a>
 
+      <div className="fixed bottom-20 right-6 z-100 rounded-full shadow-lg px-3 py-3 ">
+        <GoogleTranslate />
+      </div>
+
       {/* Scroll To Top Button */}
-      {showButton && (
+      {/* {showButton && (
         <button
           onClick={scrollToTop}
           className={`fixed bottom-6 right-6 p-3 hover:cursor-pointer rounded-full shadow-lg transition-all duration-300 z-50
@@ -200,7 +205,7 @@ export default function Footer() {
         >
           <ArrowUp size={22} />
         </button>
-      )}
+      )} */}
     </>
   );
 }
