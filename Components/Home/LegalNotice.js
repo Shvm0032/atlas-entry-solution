@@ -3,7 +3,7 @@ export default function LegalNotice() {
     <section
       className="py-16 bg-cover bg-center bg-no-repeat relative"
       style={{
-        backgroundImage: "url('/home/legal-notice-banner.png')",
+        backgroundImage: "url('/Assets/home/legal-notice-banner.png')",
       }}
     >
       {/* Dark Overlay (optional) */}

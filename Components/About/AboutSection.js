@@ -29,7 +29,7 @@ export default function AboutSection() {
           {/* Right Image */}
           <div className="flex-1 rounded-xl overflow-hidden">
             <img
-              src="/about/about-section.png"
+              src="/Assets/about/about-section.png"
               alt="About Image"
               className="w-[500px] h-[500px] object-cover object-bottom"
             />

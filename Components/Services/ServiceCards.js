@@ -8,7 +8,7 @@ export default function ServicesSection() {
     <section
       className="relative py-20 bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: "url('/services/services-bg-3.jpg')", 
+        backgroundImage: "url('/Assets/services/services-bg-3.jpg')", 
       }}
     >
       {/* Dark Overlay */}

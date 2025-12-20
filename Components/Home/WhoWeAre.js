@@ -26,7 +26,7 @@ export default function WhoWeAre() {
         <div className="relative md:w-1/2 h-64 md:h-auto m-4 md:m-0 order-2 md:order-1 rounded-xl md:rounded-none overflow-hidden">
           <div
             className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: "url('/home/whoweare.png      ')" }}
+            style={{ backgroundImage: "url('/Assets/home/whoweare.png')" }}
           ></div>
 
           {/* Overlay */}

@@ -5,7 +5,7 @@ export default function ProcessHero() {
   return (
     <section
       className="relative w-full bg-cover bg-center h-[50vh] md:h-[70vh]"
-      style={{ backgroundImage: "url('/process/process.jpg')" }}
+      style={{ backgroundImage: "url('/Assets/process/process.jpg')" }}
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/50 bg-opacity-50"></div>

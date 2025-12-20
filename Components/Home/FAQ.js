@@ -10,7 +10,7 @@ export default function FAQ() {
       answer: "No. We are not a temporary employment agency and do not provide employment. We offer training, support, and orientation.",
     },
     {
-      question: "Can I participate if I am illegally resident in Malta?",
+      question: "Can I participate if I am illegally resident in Europe?",
       answer: "Yes, if you meet the requirements.",
     },
     {
@@ -38,7 +38,7 @@ export default function FAQ() {
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/home/bg-8.webp')" }}
+        style={{ backgroundImage: "url('/Assets/home/bg-8.webp')" }}
       ></div>
 
       {/* Overlay */}
